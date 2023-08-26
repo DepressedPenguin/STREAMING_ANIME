@@ -1,0 +1,317 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body
+{
+background-color: #e6cf4e;
+}
+
+.main_nav
+{
+    width: 100%;
+    /* position: fixed; FIX LATER*/
+    background-color: #353535;
+    height: 75px;
+
+}
+
+.ul_center_nav
+{
+    width: 602px;
+    height: 70px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_nav_elements:hover
+{
+    background-color: #e6cf4e;
+    opacity: 80%;
+    cursor: pointer;
+    height: 70px;
+    color: black;
+    display: flex;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+}
+.ul_left
+{
+    display: flex;
+    position: relative;
+    top: -70px;
+    color: white;
+    align-items: center;
+    border-right: 1px solid white;
+    height: 70px;
+    justify-content: space-evenly;
+    width: 200px;
+    list-style-type: none
+}
+
+
+/* FIX IMAGES SIZE */
+.l-img
+{
+    width: 35px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.l-img:hover
+{
+    opacity: 90%;
+    cursor: pointer;
+    background-color: #e6cf4e;
+}
+
+.logo
+{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    float: right;
+    right: 85px;
+    top: 31px;
+    color: white;
+    position: absolute;
+    align-items: center;
+    height: 20px;
+}
+
+.logo_edit
+{
+    height: 160px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.Walpaper_sec {
+    height: 240px;
+    background-image: url(/images/walpaper.webp);
+    width: 100;
+    display: flex;
+    justify-content: center;
+    background-position: 110px -150px;
+}
+
+.img_size
+{
+    width: 100%;
+    height: 249px;
+    background-position: 20px 20px 20px 30px;
+    object-fit: cover;
+
+}
+
+.img_size img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+  }
+
+.ann
+{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
+
+.ANIM_TITLE
+{
+    width:1040px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    padding: 5px;
+    color: white;
+    height:52px;
+    background-color:#e6cf4e;
+}
+
+.main_title_name
+{
+    background-color: #353535;
+    padding: 10px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 120px;
+}
+
+.anime_list
+{
+    width:1330px;
+    margin: auto;
+    background-color: #353535;
+    border-radius: 5px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.box1
+{
+    width: 320px;
+    background-image: url(/images/img1_.webp);
+    height: 175px;
+    background-color: #353535;
+    border-bottom: 50px solid white;
+    display: flex;
+}
+
+.anime_list
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 17px;
+    padding: 8px;
+    margin-left: 31px;
+    margin-top: 130px;
+}
+
+.Trending_Anime
+{
+    width: 1349px;
+    margin: auto;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1px;
+    height: 264px;
+}
+
+.anime_info
+{
+    margin-left: 10px;
+    height: 310px;
+    width: 207px;
+    background-image: url(/images/img2_.webp);
+    background-color: white;
+    border-bottom: 40px solid #353535;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+}
+
+.anime_info:hover
+{
+-ms-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.btn_live
+{
+    padding: 5px;
+    background-color:#e6cf4e;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    border: navajowhite;
+}
+
+.btn_live:hover
+{
+    opacity: 80%;
+    background-color: #353535;
+    color: white;
+}
+
+.titel_card_anime
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 486px;
+}
+
+#back1
+{
+    background-image: url(/images/img3_.webp);
+}
+
+#background_2
+{
+    background-image: url(/images/img4_.webp);
+}
+
+#background_3
+{
+    background-image: url(/images/img5_.webp);
+}
+
+#background_4
+{
+    background-image: url(/images/img6_.webp);
+}
+
+#background_5
+{
+    background-image: url(/images/img7.webp);
+}
+
+.footer_down
+{
+    margin: auto;
+    height: 100px;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.privacy_element
+{
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+}
+.title_privacy
+{
+    color: #353535;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.media_icons
+{
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.ico-size
+{
+    width: 25px;
+    cursor: pointer;
+}
+
