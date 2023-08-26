@@ -315,3 +315,8 @@ transform: scale(1.1);
     cursor: pointer;
 }
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
