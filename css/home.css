@@ -102,7 +102,7 @@ background-color: #e6cf4e;
 
 .Walpaper_sec {
     height: 240px;
-    background-image: url(images/walpaper.png);
+    background-image: url(../images/walpaper.png);
     width: 100;
     display: flex;
     justify-content: center;
@@ -169,7 +169,7 @@ background-color: #e6cf4e;
 .box1
 {
     width: 320px;
-    background-image: url(images/img1_.png);
+    background-image: url(../images/img1_.png);
     height: 175px;
     background-color: #353535;
     border-bottom: 50px solid white;
@@ -210,7 +210,7 @@ h2
     margin-left: 10px;
     height: 310px;
     width: 207px;
-    background-image: url(images/img2_.webp);
+    background-image: url(../images/img2_.webp);
     background-color: white;
     border-bottom: 40px solid #353535;
     transition: ease-in-out 0.4s;
@@ -253,27 +253,27 @@ transform: scale(1.1);
 
 #back1
 {
-    background-image: url(images/img3_.webp);
+    background-image: url(../images/img3_.webp);
 }
 
 #background_2
 {
-    background-image: url(images/img4_.webp);
+    background-image: url(../images/img4_.webp);
 }
 
 #background_3
 {
-    background-image: url(images/img5_.webp);
+    background-image: url(../images/img5_.webp);
 }
 
 #background_4
 {
-    background-image: url(images/img6_.webp);
+    background-image: url(../images/img6_.webp);
 }
 
 #background_5
 {
-    background-image: url(images/img7.webp);
+    background-image: url(../images/img7.webp);
 }
 
 .footer_down
